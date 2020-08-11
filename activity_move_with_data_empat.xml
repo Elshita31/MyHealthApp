@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7b198"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 TIPS HIDUP SEHAT"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/polahidup" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Lakukan aktifitas fisik setiap hari"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="2. Periksa kesehatan secara berkala"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="3. Diet Seimbang"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="4. Biasakan hidup bersih dan sehat"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="5. Hindari minuman keras"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="6. Kelola stres"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+package id.sch.smktelkommalang.myhealthapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MoveWithDataActivityTiga extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_move_with_data_tiga);
+    }
+}

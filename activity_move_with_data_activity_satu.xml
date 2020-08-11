@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#596e79"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <!--        ini bisa diganti kali yg id di text view-->
+
+    <TextView
+        android:id="@+id/tv_data_received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_received"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/jagajarak" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Makan dengan gizi yang seimbang"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="2. Rajin olahraga dan istirahat cukup"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="3. Jaga kebersihan lingkungan"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="4. Cuci tangan pakai sabun"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="5. Gunakan masker bila batuk atau pilek"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="6. Tidak merokok"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="7. Jaga jarak"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+</LinearLayout>

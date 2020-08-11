@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7b198"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUCI TANGAN YANG BENAR"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/cucitangan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Berikut adalah cara mencuci tangan dengan benar: "
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Basahi tangan dengan air dan ambil sabun secukupnya"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="2. Gosokkan kedua telapak tangan ke sela-sela jari"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="3. Jangan lupa bagian belakang jari. Pakai teknik mengunci"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="4. Bersihkan juga bagian jempol, luar dan dalam"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="5. Basahi tanganmu dengan air bersih untuk membilas sabun"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="6. Keringkan tangan dengan handuk"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#596e79"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEMAKAI MASKER DENGAN BENAR"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="380dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/masker" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Berikut adalah cara memakai masker benar: "
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="1. Cuci tangan sebelum menyentuh masker "
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="2. Pastikan masker tidak sobek"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="3. Posisikan sisi berwarna dibagian depan"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="4. Atur sisi bawah menutupi dagu agar tidak bercelah"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="5. Tekan sisi atas masker menyesuaikan bentuk hidung"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Gantilah masker sesering mungkin"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
